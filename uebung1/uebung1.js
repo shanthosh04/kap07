@@ -7,6 +7,6 @@ function replaceString(str) {
   return replacedStr
 }
 
-const text = replaceString("Glücklich")
+const text = replaceString("Glücklich, öffnen, häufig")
 const h1 = document.getElementById("title")
 h1.innerText = text
